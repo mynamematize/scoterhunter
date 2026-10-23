@@ -11,7 +11,7 @@ from profit import estimate_profit
 from sources import scan_olx
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN", "").strip()
+TOKEN = os.getenv("8898266820:AAHUfI-vAs-tK7fhYgetWj5ZZ8NfNQjR534", "").strip()
 router = Router()
 
 @router.message(CommandStart())
